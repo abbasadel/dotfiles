@@ -45,4 +45,16 @@ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.giti
 
 git config --global user.name "Abbas Ibrahim"
 git config --global user.email "abbas.adel.ibrahim@gmail.com"
+#setting vscode as global editor
 git config --global core.editor code
+
+
+#configure ssh
+mkdir $HOME/.ssh
+chmod 0700 $HOME/.ssh
+
+
+#install 
+brew install --cask google-backup-and-sync
+brew install --cask notion
+
