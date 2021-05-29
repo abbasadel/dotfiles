@@ -58,3 +58,9 @@ chmod 0700 $HOME/.ssh
 brew install --cask google-backup-and-sync
 brew install --cask notion
 
+#install gradle
+sdk install gradle
+#install gradle code completion
+
+git clone git://github.com/gradle/gradle-completion ~/.oh-my-zsh/plugins/gradle-completion
+
