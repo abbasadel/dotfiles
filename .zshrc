@@ -77,7 +77,19 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(
+  brew
+  colored-man-pages
+  colorize 
+  docker
+  git
+  gradle-completion
+  osx 
+  pip 
+  python  
+  zsh-syntax-highlighting 
+  zsh-autosuggestions
+  )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,3 +128,8 @@ export SDKMAN_DIR="/Users/abbasibrahim/.sdkman"
 
 #aliases
 alias ll="ls -ltra"
+alias dc="docker compose"
+
+
+#install go
+brew install go
