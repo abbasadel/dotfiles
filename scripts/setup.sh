@@ -64,3 +64,9 @@ sdk install gradle
 
 git clone git://github.com/gradle/gradle-completion ~/.oh-my-zsh/plugins/gradle-completion
 
+brew install watch
+
+
+#installing kotlin
+sdk install kotlin
+sdk install kscript
