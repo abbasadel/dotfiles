@@ -73,3 +73,6 @@ sdk install kscript
 
 #install go
 brew install go
+
+#command util to parse json
+brew install jq
