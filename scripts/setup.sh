@@ -70,3 +70,6 @@ brew install watch
 #installing kotlin
 sdk install kotlin
 sdk install kscript
+
+#install go
+brew install go
