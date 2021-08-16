@@ -76,3 +76,6 @@ brew install go
 
 #command util to parse json
 brew install jq
+
+#install githun cli
+brew install github

@@ -129,7 +129,4 @@ export SDKMAN_DIR="/Users/abbasibrahim/.sdkman"
 #aliases
 alias ll="ls -ltra"
 alias dc="docker compose"
-
-
-#install go
-brew install go
+alias k=kubectl
