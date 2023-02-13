@@ -44,7 +44,15 @@ brew install 1password
 brew install 1password-cli
 brew install visual-studio-code
 brew install alfred
+
+###### install other apps
+brew install google-drive
+brew install microsoft-edge
 brew install notion
+brew install slack
+brew install zoom
+brew install spotify
+brew install google-chrome
 
 
 
@@ -64,5 +72,3 @@ git clone git://github.com/gradle/gradle-completion ~/.oh-my-zsh/plugins/gradle-
 
 brew install jq
 brew install node
-
- 
